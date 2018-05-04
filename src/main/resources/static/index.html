@@ -1,10 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>雅安</title>
+	<meta charset="UTF-8">
+	<title>动态嘉兴重点安全保障系统</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/base.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/widget.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/theme.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/nav.css" />
+    <!--<link rel="stylesheet" type="text/css" href="resources/css/greenSkin.css" />-->
+	<style>
+		*{
+			font-weight: normal !important;
+		}
+		.main-repeat.layout-left-center, .main-repeat.layout-left-center.col-main {
+			position: absolute;
+			top: 0px;
+			bottom: 0px;
+			left: 0px;
+			right: 0px;
+		}
+
+		.layout-left-center .col-sub {
+			width: 180px;
+			position: absolute;
+			top: 0px;
+			bottom: 0px;
+			left: 0px;
+		}
+
+		.col-fold .sidebar-btn,
+		.col-fold .col-sub{
+			width: 50px;
+		}
+
+		.sidebar-fold li{
+			width: 50px;
+		}
+		.col-fold .items-sec span{
+			margin: 5px 5px 0px 0px!important;
+		}
+		.col-fold .items-sec span.active{
+			margin-right: -5px!important;
+		}
+		.zmdi-chevron-left{padding-left: 10px;}
+		.zmdi-chevron-right{padding-right: 8px;}
+        .ico-arrow {
+            top: 20px;
+        }
+	</style>
+
+
 </head>
 <body>
+	<div class="header" style="min-width: 1280px;">
+		<div class="header-container">
+			<a class="logo">
+				<img src="resources/css/imgs/logo.png"/>
+				<h1></h1>
+			</a>
+			<div class="user-info">
+				<!--<a class="user-info-item">-->
+					<!--<i class="iconfont">&#xe662;</i>-->
+					<!--<span>门户</span>-->
+				<!--</a>-->
+				<a class="user-info-item">
+					<span id="loginout">退出</span>
+				</a>
+				<a class="user-info-item user-info-admin">
+					<span>超级管理员</span>
+					<!--<img class="ico-arrow" src="resources/css/imgs/ico-arrow.png" alt="" />-->
+					<!--<div class="spinner">
+						<ul>
+							<li class="spinner-item">
+								<span class="items-ico"></span>
+								<span>个人设置</span>
+							</li>
+						</ul>
+					</div>-->
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="main-repeat layout-left-center">
+			<div class="col-main">
+				<div class="col-sub">
+					<div class="sidebar-btn" active="0">
+						<div class="sidebar-btn-ico"></div>
+					</div>
+					<ul class="sidebar-unfold" id="sideMenu">
+					</ul>
+					<ul class="sidebar-fold">
+					</ul>
+				</div>
 
+				<div class="main-wrap">
+					<!--页面加载容器-->
+					<div class="page-view">
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="libs/core/jquery/jquery.min.js"></script>
+	<script src="libs/core/jquery/jqueryui/jquery-ui.js"></script>
+	<script src="libs/bmap/utils/events_utils.js"></script>
+	<script data-main="main" src="libs/core/requirejs/requirejs.js"></script>
+	<script>
+		window.ByEvent.addEvent("mainjsLoaded", function() {
+			requirejs(["index"]);
+		});
+	</script>
 </body>
 </html>
