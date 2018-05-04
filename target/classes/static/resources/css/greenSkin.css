@@ -1,0 +1,65 @@
+.header {
+    background: #00cb99 ;
+}
+/*---nav-begin---*/
+.layout-left-center .col-sub{
+    background: #e9efed;
+}
+.sidebar-btn{
+    background: #e9efed;
+}
+.sidebar-items {
+    color: #333;
+}
+.items-sub-list-active, .items-sub-list-active:hover {
+    background: #00cb99;
+    color: #ffffff !important;
+}
+.items-sub-list:hover{
+    background: #00cb99;
+    color: #ffffff !important;
+}
+.items-sec:hover {
+    background: #00cb99;
+    color: #fff;
+}
+.items-sub-list {
+    color: #333;
+}
+.green{
+    color:#00cb99;
+}
+/*---nav-end---*/
+.wy-tabview.wy-tabview-naviable .wy-tabview-navbuttons > i:hover {
+    color: #00cb99 !important;;
+}
+.wy-tabview.wy-tabview-naviable .wy-tabview-navbuttons > i {
+    border: 1px solid #00cb99 !important;
+}
+.wy-tabview.wy-tabview-naviable .wy-tabview-navbuttons > i {
+    color: #00cb99 !important;
+}
+.wy-tabview > .wy-tabview-header > ul li.selected {
+    border: 1px solid #00cb99 !important;
+    border-bottom-color: #00cb99 !important;
+    background-color: #00cb99 !important;
+}
+.wy-tabview > .wy-tabview-header > ul li {
+    border: 1px solid #00cb99 !important;
+    color: #00cb99 !important;
+}
+.wy-tabview > .wy-tabview-header > ul li.selected div{
+    color: #fff !important;
+}
+.wy-tabview > .wy-tabview-header > ul li.closable > .wy-tabview-tabclose {
+    color: #00cb99 !important;
+}
+.wy-tabview-tabclose, .wy-tabview > .wy-tabview-header > ul li.closable.selected > .wy-tabview-tabclose {
+    color: #fff !important;
+}
+.user-info-item:hover, .nav-more:hover{
+    background: #04b98c !important;
+}
+.spinner-item:hover{
+    background: #00cb99 !important;
+}

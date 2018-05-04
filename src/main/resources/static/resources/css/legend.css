@@ -1,0 +1,112 @@
+#menu{
+    width:160px;position: fixed;left: 10px;bottom: 20px;overflow: hidden; box-shadow: rgb(204, 204, 204) 0px 0px 5px;font-size: 12px;
+    border: 1px solid #ccc;border-radius: 3px; background: #fff;font-family: "microsoft yahei";z-index:1000;
+}
+#menu #nav {
+    position: absolute;bottom: 0;left: 0;right: 0;padding:0;margin:0;list-style:none;
+    display:block;width:100%;height: 30px;border-top: 1px dotted #ccc;}
+#menu #nav li {float:left;height: 30px;line-height: 30px;width: 33%;}
+#menu #nav li a:link{display:block;text-decoration:none;text-align:center;height: 30px;line-height: 30px;width: 100%;color: #333;}
+#menu_con{ width:100%;border-top:none;}
+.tag{position: relative;width: 100%;padding: 10px;margin-bottom: 20px;}
+.active{color:#fff;background: #e6e6e6;}
+/*conctent--style*/
+.ul_list{list-style: none;margin: 0;padding: 0;}
+.ul_list li{padding-bottom: 10px;cursor: pointer;}
+.ul_list li .legend{width: 16px;height: 16px;float: left;margin-right: 5px;vertical-align: middle;color: #999;margin-top: -1px;}
+.ul_list li .ico-inf{line-height: 16px;vertical-align: middle;}
+.ul_list li .checked{width: 16px;height: 16px;vertical-align: middle;float: left;margin-right: 5px;}
+.ul_list li .label{margin-top: -1px;}
+/*color*/
+.red{color:#e54a4a !important;
+    display:block;
+    background:url(../css/imgs/010.png) no-repeat;
+    background-size:16px 16px;
+}
+.orange{color:#b750cd !important;
+    display:block;
+    background:url(../css/imgs/010.png) no-repeat;
+    background-size:16px 16px;
+}
+.yellow{color:#df990e !important;
+    display:block;
+    background:url(../css/imgs/030.png) no-repeat;
+    background-size:16px 16px;
+}
+.green{color:#ed4683 !important;
+    display:block;
+    background:url(../css/imgs/040.png) no-repeat;
+    background-size:16px 16px;
+}
+.blue{color:#83d32e !important;
+    display:block;
+    background:url(../css/imgs/050.png) no-repeat;
+    background-size:16px 16px;
+}
+.purple{color:#2a8ded !important;
+    display:block;
+    background:url(../css/imgs/060.png) no-repeat;
+    background-size:16px 16px;
+}
+.light_green{color:#3acbd7 !important;
+    display:block;
+    background:url(../css/imgs/070.png) no-repeat;
+    background-size:16px 16px;
+}
+.pink{color:#6274e5 !important;
+    display:block;
+    background:url(../css/imgs/080.png) no-repeat;
+    background-size:16px 16px;
+}
+.blue_green{color:#18a267 !important;
+    display:block;
+    background:url(../css/imgs/090.png) no-repeat;
+    background-size:16px 16px;
+}
+
+.cluster-010{
+    display: block;
+    background:url(../image/cluster/010.png) no-repeat;
+    background-size:16px 16px;
+}
+.cluster-011{
+    display: block;
+    background:url(../image/cluster/011.png) no-repeat;
+    background-size:16px 16px;
+}
+
+
+.cluster-012{
+    display: block;
+    background:url(../image/cluster/012.png) no-repeat;
+    background-size:16px 16px;
+}
+
+.cluster-020{
+    display: block;
+    background:url(../image/cluster/020.png) no-repeat;
+    background-size:16px 16px;
+}
+.cluster-030{
+    display: block;
+    background:url(../image/cluster/030.png) no-repeat;
+    background-size:16px 16px;
+}
+.cluster-080{
+    display: block;
+    background:url(../image/cluster/080.png) no-repeat;
+    background-size:16px 16px;
+}
+.cluster-090{
+    display: block;
+    background:url(../image/cluster/090.png) no-repeat;
+    background-size:16px 16px;
+}
+.cluster-021{
+    display: block;
+    background:url(../image/cluster/021.png) no-repeat;
+    background-size:16px 16px;
+}
+
+
+

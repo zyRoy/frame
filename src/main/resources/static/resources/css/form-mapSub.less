@@ -1,0 +1,199 @@
+.form-mapSub{
+  padding: 15px 0;
+  position: fixed;
+  z-index: 10;
+  right: 10px;
+  top: 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px #c2c8ce;
+  color: #666666;
+  font-size: 12px;
+  ul{
+    li{
+      float: left;
+      padding: 0  15px;
+      border-right: 1px solid #efefef;
+      cursor: pointer;
+      .navSub{
+        position: absolute;
+        top: 55px;
+        right: 0;
+        background-color: #fff;
+        box-shadow: 0px 4px 10px #c2c8ce;
+        color: #666666;
+        .navClose{
+          position: absolute;
+          top: 8px;
+          right: 8px;
+          font-size: 18px;
+          color: #aaaaaa;
+        }
+        #navSubMenu{
+          width:100%;
+          border: none;
+          #navSubMenuNav {
+            display:block;
+            width:100%;
+            height: 40px;
+            font-size: 14px;
+            li {
+              float:left;
+              height: 39px;
+              line-height: 39px;
+              padding: 0;
+              border: none;
+              border-bottom: 1px solid #31b6fc;
+              a:link{
+                display:block;
+                text-decoration:none;
+                text-align:center;
+                height: 40px;
+                line-height: 40px;
+                width: 100px;
+                color: #666;
+              }
+            }
+            li:last-child{
+              padding-right: 30px;
+            }
+          }
+        }
+        #navSubMenuCon{
+          width:100%;
+          border-top:none;
+        }
+        .navTag{
+          position: relative;
+          background-color: #fff;
+          padding: 15px;
+          ul{
+            li{
+              border: none;
+              width: 100%;
+              clear: both;
+              margin-bottom: 10px;
+              .custom-checkbox{
+                display: block;
+              }
+              .custom-checkbox label{
+                width: inherit;
+                padding-left: 30px;
+                font-size: 12px;
+                padding-top: 2px;
+              }
+            }
+          }
+        }
+        .navSubActive{
+          color:#31b6fc !important;
+          background: url("../../resources/css/imgs/navArrow.png") no-repeat;
+          background-position: 50% 34px;
+        }
+      }
+      .heatMap{
+        position: absolute;
+        top: 140px;
+        right: 0;
+        width: 430px;
+        background-color: #fff;
+        box-shadow: 0px 4px 10px #c2c8ce;
+        color: #666666;
+        padding: 10px 30px 10px 10px;
+        .heatMapClose{
+          position: absolute;
+          top: 5px;
+          right: 8px;
+          font-size: 18px;
+          color: #aaaaaa;
+        }
+        .heatMapText{
+          margin-right: 20px;
+          font-size: 14px;
+        }
+        .navbtn{
+          width: 50px;
+          height: 24px;
+          color: #fff;
+          text-align: center;
+          border-radius: 2px;
+          border: none;
+          margin-right: 10px;
+          cursor: pointer;
+        }
+        .navbtn:active{
+          position: relative;
+          top: 1px;
+        }
+        .bgGreen{
+          background-color: #40bd84;
+        }
+        .bgBlue{
+          background-color: #31b6fc;
+        }
+        .bgPink{
+          background-color: #e974e9;
+        }
+        .bgOrg{
+          background-color: #e9c73d;
+        }
+        .bgRed{
+          background-color: #f76a6a;
+        }
+      }
+      .heatMapSite{
+        .heatMap;
+        top: 193px;
+        width: 315px;
+      }
+    }
+    li:last-child{
+      border-right: none;
+    }
+  }
+  .navIcon{
+    color: #ccc;
+    font-size: 20px;
+    vertical-align: middle;
+  }
+  .navText{
+    //    margin-left: 8px;
+  }
+  .navActiveBlue{
+    color: #31b6fc;
+  }
+  .navActiveBlue span{
+    color: #31b6fc;
+  }
+  .navActiveGreen{
+    color: #00cb99;
+  }
+}
+/*空气*/
+.air{
+  position: absolute;
+  top: 55px;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px #c2c8ce;
+  color: #666666;
+  padding: 10px 30px 10px 10px;
+  .heatMapClose{
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    font-size: 18px;
+    color: #aaaaaa !important;
+  }
+}
+/*路况*/
+.road{
+  .air;
+}
+/*工具*/
+.tool{
+  .air;
+}
+/*默认隐藏*/
+.sub-nav-toolbar{
+  display: none;
+}

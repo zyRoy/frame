@@ -1,0 +1,26 @@
+.treeSelect-panel {
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #DCDCDC;
+    width: 200px;
+    display: none;
+    border-top-width: 0;
+    z-index: 101;
+    background: white;
+    max-height:160px;
+}
+.treeSelect-input{
+    width: 100%;
+    /*height: 25px;*/
+    padding-left: 5px;
+}
+.treeSelect-mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #FFF;
+    opacity: .1;
+    z-index: 99;
+}

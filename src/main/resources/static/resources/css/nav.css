@@ -1,0 +1,400 @@
+@import "icon/icon.css";
+
+.spacing{
+    margin-right: 5px;
+}
+
+.main-repeat.layout-left-center{
+	width: 100%;
+	height: 100%;
+}
+
+.col-main{
+	height: 100%;
+}
+
+.layout-left-center .col-sub{
+	width: 180px;
+	height: 100%;
+	margin-right: 0;
+	margin-bottom: 0;
+	background: #42576d;
+}
+
+.col-fold .sidebar-btn,
+.col-fold .col-sub{
+	width: 50px;
+}
+
+.sidebar-fold li{
+	width: 50px;
+}
+
+.layout-left-center .main-wrap{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 10px;
+	right: 10px;
+	overflow: hidden;
+	border: 1px solid #dadce0;
+	background: #eee;
+	border-radius: 4px;
+}
+
+.col-fold .main-wrap{
+	margin-left: 50px;
+}
+
+.sidebar-btn{
+	height: 30px;
+	background: #42576d;
+	cursor: pointer;
+}
+
+.sidebar-btn-ico{
+	width: 11px;
+	height: 12px;
+	margin: 0 auto;
+	padding-top: 9px;
+	background: url(imgs/sidebtn-1.png) 0 bottom no-repeat;
+}
+
+.col-fold .sidebar-btn-ico{
+	background-image: url(imgs/sidebtn-2.png);
+}
+
+.sidebar-items{
+	line-height: 36px;
+	color: #fff;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.items-sec{
+	font-size: 16px;
+	padding-left: 15px;
+	cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+	background-color: #466987;
+}
+
+.items-sec-ico{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background: url(imgs/sidebar-sec.png) 0 0 no-repeat;
+	margin-right: 15px;
+}
+
+.items-sec-ico.active{
+	display: inline-block;
+	background: url(imgs/sidebar-sec2.png) 0 0 no-repeat;
+}
+
+.items-sec:hover{
+	background: #466987;
+}
+
+.items-sub{
+	background-color: #426182;
+}
+
+.items-sub-list{
+	padding-left: 37px;
+	height: 36px;
+	line-height: 35px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: #fff;
+	font-size: 14px;
+}
+
+.items-sub-list .iconfont{
+	color: #bfccd9;
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+.items-sub-list:hover{
+	background: #466987;
+}
+
+.items-sub-list-active, .items-sub-list-active:hover{
+	background: #31b6fc;
+	color: #ffffff;
+}
+
+.items-sub-list-active .iconfont{
+	color: #ffffff;
+}
+
+.sidebar-fold{
+	text-align: center;
+	display: none;
+}
+
+.sidebar-fold .items-sec,
+.sidebar-fold .items-sub-list{
+	padding-left: 0;
+}
+
+.sidebar-fold .items-sub-list .iconfont{
+	margin-right: 0;
+}
+
+.sidebar-fold .items-sub-list{
+	position: relative;
+}
+
+.sublist-tips{
+	position: absolute;
+	left: 56px;
+	top: 4px;
+	line-height: 28px;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 0 10px;
+	border-radius: 2px;
+	/*background: url(imgs/side-tip-bg.png) 0 0 repeat;*/
+	white-space: nowrap;
+	z-index: 3;
+	display: none;
+}
+
+.sublist-tips .sublist-tips-arrow{
+	position: absolute;
+	left: -6px;
+	top: 11px;
+}
+
+.sidebar-fold .items-sub-list:hover .sublist-tips{
+	display: block;
+}
+
+.col-fold .sidebar-unfold{
+	display: none;
+	background-color: #426182;
+}
+
+.col-fold .sidebar-fold{
+	display: block;
+}
+
+.frame-tabs{
+	position: relative;
+}
+
+.frame-tabs-nav.ui-tabs-nav li{
+	height: 34px;
+	line-height: 35px;
+	border-color: #e1e3e5;
+	color: #666666;
+	font-size: 14px;
+	padding: 0;
+	width: 88px;
+	padding-left: 10px;
+	text-align: left;
+	background: #f5f7fa;
+}
+
+.frame-tabs-content.ui-tabs-content{
+	border: 0;
+	padding-top: 47px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.frame-tabs-nav.ui-tabs-nav{
+	top: 12px;
+	left: 12px;
+}
+
+.content-panel{
+	border-top: 1px solid #e1e3e5;
+}
+
+.frame-tabs-nav.ui-tabs-nav li.ui-tabs-active{
+	height: 35px;
+	background: #ffffff;
+	color: #444444;
+}
+
+.ui-tabs-trigger .ui-tabs-trigger-close{
+	font-size: 14px;
+	color: #c2c8ce;
+}
+
+.ui-tabs-trigger-close:hover{
+	color: #e54d4d;
+}
+
+.tabs-nav-btns{
+	position: absolute;
+	right: 12px;
+	top: 12px;
+	height: 34px;
+	border: 1px solid #e1e3e5;
+	border-bottom: 0;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	background: #f5f7fa;
+	line-height: 33px;
+	z-index: 2;
+}
+
+.nav-btns-items{
+	height: 100%;
+	color: #96a5b3;
+	background: none;
+	border: 0;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.btns-items-left{
+	margin-left: 10px;
+}
+
+.btns-items-right{
+	margin-right: 10px;
+}
+
+.content-panel iframe{
+	width: 100%;
+}
+
+
+.sidebar-icons{
+	display: block;
+	float: left;
+	width: 18px;
+	height: 18px;
+	background: url(imgs/sidebar-icons.png) no-repeat;
+	margin-top: 9px;
+	margin-right: 10px;
+}
+
+.sideicon-1{
+	background-position: -10px -10px;
+}
+
+.sideicon-2{
+	background-position: -38px -10px;
+}
+
+.sideicon-3{
+	background-position: -66px -10px;
+}
+
+.sideicon-4{
+	background-position: -94px -10px;
+}
+
+.sideicon-5{
+	background-position: -122px -10px;
+}
+
+.items-sub-list-active .sideicon-1{
+	background-position: -10px -38px;
+}
+
+.items-sub-list-active .sideicon-2{
+	background-position: -38px -38px;
+}
+
+.items-sub-list-active .sideicon-3{
+	background-position: -66px -38px;
+}
+
+.items-sub-list-active .sideicon-4{
+	background-position: -94px -38px;
+}
+
+.items-sub-list-active .sideicon-5{
+	background-position: -122px -38px;
+}
+
+.sideicon-6{
+	background-position: -150px -10px;
+}
+
+.sideicon-7{
+	background-position: -178px -10px;
+}
+
+.sideicon-8{
+	background-position: -206px -10px;
+}
+
+.sideicon-9{
+	background-position: -234px -10px;
+}
+
+.sideicon-10{
+	background-position: -262px -10px;
+}
+
+
+.items-sub-list-active .sideicon-6{
+	background-position: -150px -38px;
+}
+
+.items-sub-list-active .sideicon-7{
+	background-position: -178px -38px;
+}
+
+.items-sub-list-active .sideicon-8{
+	background-position: -206px -38px;
+}
+
+.items-sub-list-active .sideicon-9{
+	background-position: -234px -38px;
+}
+
+.items-sub-list-active .sideicon-10{
+	background-position: -262px -38px;
+}
+
+.sideicon-11{
+	background-position: -290px -10px;
+}
+
+.items-sub-list-active .sideicon-11{
+	background-position: -290px -38px;
+}
+
+.sideicon-12{
+    background-position: -318px -10px;
+}
+
+.items-sub-list-active .sideicon-12{
+    background-position: -318px -38px;
+}
+
+/** 菜单字体图标 **/
+
+.wy-tabview > .wy-tabview-content,.wy-tabview > .wy-tabview-content > div, .wy-tabview > .wy-tabview-content iframe {
+	height:100%;
+	width: 100%;
+	overflow: hidden;
+}
+.main-wrap .page-view {
+	height: 100%;
+}
+#menu-tabs {
+	height: 100%;
+	background: #eee;
+}
+/*-----------style-------------*/
+.layout-left-center .main-wrap{
+    bottom: 0;
+    border-radius: 0;
+    border: inherit;
+}

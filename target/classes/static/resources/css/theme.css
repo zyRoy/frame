@@ -1,0 +1,224 @@
+.header{
+	height: 50px;
+	background: #31b6fc;
+	border-bottom: 0;
+}
+
+.header-container{
+	width: 100%;
+	height: 100%;
+}
+
+.logo{
+	height: 100%;
+}
+
+.user-info{
+	padding-left: 0;
+	height: 50px;
+}
+
+.user-info-item{
+	width: auto;
+	height: 50px;
+	line-height: 49px;
+	/*border-left: 1px solid #2782de;*/
+	font-size: 13px;
+	padding: 0 8px;
+}
+
+.user-info-admin{
+	font-size: 14px;
+	position: relative;
+}
+
+.ico-arrow{
+	margin-left: 5px;
+	position: relative;
+    top: 15px;
+    float: right;
+}
+
+.user-info-item .iconfont{
+	position: static;
+	margin-right: 5px;
+}
+
+.nav-more{
+	height: 100%;
+	line-height: 49px;
+	float: left;
+	padding: 0 8px;
+	/*border-left: 1px solid #2782de;*/
+	/*border-right: 1px solid #2782de;*/
+	color: #ffffff;
+	font-size: 13px;
+	cursor: pointer;
+	position: relative;
+}
+
+.user-info-item:hover, .nav-more:hover{
+	background: #2ba8ea;
+}
+
+.main{
+	width: 100%;
+	margin-top: 0;
+	position: absolute;
+	top: 50px;
+	bottom: 0;
+	left: 0;
+}
+
+.user-info-admin .spinner{
+	width: 100%;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	padding: 10px 0;
+	background: #ffffff;
+	border: 1px solid #e1e3e5;
+	box-shadow: 0px 4px 10px #c2c8ce;
+	color: #444444;
+	font-size: 14px;
+	line-height: 32px;
+	z-index: 10040;
+	display: none;
+}
+
+.spinner-item{
+	cursor: pointer;
+}
+
+.spinner-item img{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.items-ico{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(imgs/spinner-1.png) 0 0 no-repeat;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.spinner-item:hover{
+	background: #298cef;
+	color: #ffffff;
+}
+
+.spinner-item:hover .items-ico{
+	background-image: url(imgs/spinner-1-hover.png);
+}
+
+.nav-more-ico{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background: url(imgs/ico-arrow.png) 0 0 no-repeat;
+}
+
+.sub-nav-container-white{
+	border-color: #e1e3e5;
+	width: auto;
+	border-radius: 0;
+	box-shadow: 0px 4px 10px #c2c8ce;
+	padding: 15px 20px;
+}
+
+.sub-nav-content{
+	overflow: hidden;
+}
+
+.subnav-items{
+	float: left;
+	line-height: normal;
+	width: 160px;
+}
+
+.subnav-items-title{
+	color: #444444;
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+
+.subnav-items-item{
+	line-height: 24px;
+	color: #666666;
+	font-size: 12px;
+}
+
+.subnav-items-item img{
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.subnav-items-item span{
+	vertical-align: middle;
+}
+
+.nav-more-active, .nav-more-active:hover{
+	color: #298cef;
+	background: #ffffff;
+}
+
+.nav-more-active .nav-more-ico{
+	background-image: url(imgs/ico-arrow-active.png);
+}
+
+/**日期控件样式*/
+.ui-datepicker-header,.ui-datepicker-calendar td .ui-state-default{
+	background-color: #ffffff;
+	border: none;
+	text-align: center;
+	font-weight: normal;
+}
+
+.ui-datepicker-calendar .ui-state-hover{
+	background-color: #ff0000 !important;
+	color: #ffffff !important;
+	-moz-border-radius: 3px !important;
+	-webkit-border-radius: 3px !important;
+	border-radius: 3px !important;
+}
+
+/**选择日期的样式*/
+.ui-datepicker-calendar td .ui-state-active{
+	background-color: #2A6ED8 !important;
+	color: #ffffff !important;
+	-moz-border-radius: 3px !important;
+	-webkit-border-radius: 3px !important;
+	border-radius: 3px !important;
+}
+
+/**默认当前日期样式*/
+.ui-datepicker-calendar td .ui-state-highlight{
+	background-color: #ffffff;
+	border: 1px dotted #BDBDBD;
+	color: red;
+	-moz-border-radius: 3px !important;
+	-webkit-border-radius: 3px !important;
+	border-radius: 3px !important;
+}
+
+a.logo {
+
+}
+a.logo img{
+	margin: 9px 10px 0 15px;
+	float: left;
+	width: 28px;
+}
+a.logo h1 {
+	color: #ffffff;
+	font-size: 22px;
+	float: left;
+	letter-spacing: 0.88px;
+	line-height: 50px;
+}
+
+body~div {
+	height: 100%;
+}

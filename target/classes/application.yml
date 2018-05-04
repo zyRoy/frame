@@ -1,0 +1,46 @@
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+mybatis:
+  mapper-locations:
+  - classpath*:mapper/**/*Mapper.xml
+  type-aliases-package: com.hire
+  configuration:
+    map-underscore-to-camel-case: true
+pagehelper:
+  auto-dialect: true
+  close-conn: false
+  reasonable: true
+
+---
+spring:
+  profiles: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://171.221.173.155:3306/talent_mange?useUnicode=true&characterEncoding=utf-8
+    username: xunyingdev
+    password: xunying85#!DB
+
+---
+spring:
+  profiles: test
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://118.123.173.75:3306/depot
+    username: xunyingdev
+    password: xunying85#!DB
+
+---
+spring:
+  profiles: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://118.123.173.75:3306/depot
+    username: xunyingdev
+    password: xunying85#!DB
+  thymeleaf:
+    cache: true
+

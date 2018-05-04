@@ -1,0 +1,295 @@
+@import "font/iconfont.css";
+html {
+  overflow: auto;
+}
+.tables-view {
+  overflow: auto;
+  /*padding-bottom: 55px;*/
+}
+.tables {
+  padding: 0 40px;
+  /*margin-bottom: 35px;*/
+}
+.tables form {
+  position: relative;
+}
+.tables form div.form-item {
+  display: inline-block;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'simHei', Arial;
+  position: relative;
+}
+.tables form div.form-item .button {
+  font-family: "microsoft yahei";
+  height: 30px;
+  padding: 0 10px;
+  background-color: #0c99fd;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  line-height: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.tables form div.form-item .button:hover {
+  background-color: #0a8eeb;
+}
+
+.tables form div.form-item .button.active {
+  background-color: #0982d8;
+}
+.tables form div.form-item-l {
+  position: relative;
+  width: 15%;
+  min-width: 200px;
+  display: inline-block;
+  text-align: center;
+  /*padding: 40px 0;*/
+}
+.tables form div.form-item-l label {
+  font-family: inherit;
+  width: 30%;
+}
+.tables form div.form-item-l label i.icon-rili {
+  position: absolute;
+  top: 5px;
+  right: 5%;
+  z-index: 1;
+}
+.tables form div.form-item-l select {
+  width: 50%;
+  height: 28px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+.tables form div.form-item-l .wy-inputtext {
+  width: 60%;
+  padding-left: 14px;
+  padding-right: 15px;
+  cursor: pointer!important;
+}
+.tables form div.form-item-right {
+  float: right;
+  width: 285px;
+  margin-top:15px;
+}
+.tables form div.form-item-right button {
+  font-family: "microsoft yahei";
+  display: inline-block;
+  border: none;
+  margin-right: 20px;
+  padding: 0 10px;
+  height: 100%;
+  line-height: 32px;
+  border-radius: 5px;
+  background: #0c99fd;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.tables form div.form-item-right button:hover {
+  background-color: #0a8eeb;
+}
+.tables form div.form-item-right button i {
+  margin-right: 10px;
+}
+/*报表导出*/
+.dcbut{
+  margin:0 20px 20px 0;
+  text-align: right;
+}
+.dcbut button{
+  font-family: "microsoft yahei";
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: transparent;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+.dcbut button i{
+  color: #62abf2;
+  margin-right:5px;
+}
+.timerow1{
+  width:20%;
+}
+.timerow2{
+  width:25%;
+}
+.timerow3{
+  width:55%;
+}
+.timebox{
+  margin-left:30px;
+  width: inherit !important;
+}
+#timebox2{
+  display:none;
+}
+
+.timetext{
+  height: 28px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  width:100px;
+}
+.timeff{
+  margin-left:10px;
+}
+.timetype{
+  padding-left: 5px !important;
+  width: 97px !important;
+}
+.selectdep{
+  width: 120px;
+  height: 25px;
+  margin-left: 5px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding-left: 5px;
+}
+.tpbuttonblue{
+  font-family: "microsoft yahei";
+  border: 1px solid #62abf2;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background: transparent;
+  font-size: 14px;
+  color: #62abf2;
+  cursor: pointer;
+  font-size: 12px;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.tpbuttonblue:hover{
+  background: #62abf2;
+  color: #fff;
+}
+.tpbuttongreen{
+  font-family: "microsoft yahei";
+  border: 1px solid #41bd15;
+  margin-right: 20px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background: transparent;
+  font-size: 14px;
+  color: #41bd15;
+  cursor: pointer;
+  font-size: 12px;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.tpbuttongreen:hover{
+  background: #41bd15;
+  color: #fff;
+}
+/*-------------------------*/
+.tables form div.time {
+  display: none;
+}
+.tables form div.show {
+  display: inline-block;
+}
+.tables table {
+  width: 100%;
+  border: 1px solid #e1e3e5;
+}
+.tables table th,
+.tables table td {
+  border: 1px solid #e1e3e5;
+  text-align: center;
+  width: 11%;
+  padding: 10px 5px;
+  font-size: 14px;
+  font-family: "microsoft yahei";
+}
+.tables table caption h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  height: 60px;
+  line-height: 60px;
+}
+.tables table caption p {
+  font-family: "microsoft yahei";
+  text-align: right;
+}
+.tables table caption p span {
+  margin-right: 140px;
+}
+.tables table tbody tr.gary-tr {
+  background-color: #ececec;
+}
+.tables table tbody td.city-list {
+  cursor: pointer;
+}
+.tables table tbody td span {
+  font-family: inherit;
+}
+.tables table tbody td i.icon-xia {
+  font-size: 12px;
+}
+.tables p.setDate {
+  text-align: right;
+  width: 100%;
+  padding: 10px 0;
+}
+/*font*/
+.zmdi-close {
+  text-align: center;
+}
+.zmdi-close:after {
+  content: "\e617";
+  font-style: normal;
+  font-size: 10px;
+  color: #ffffff;
+  line-height: 15px;
+  font-family: iconfont;
+}
+
+.XZicon{
+  display:inline-block;
+  transform:rotate(180deg);
+  -ms-transform:rotate(180deg); /* IE 9 */
+  -moz-transform:rotate(180deg); /* Firefox */
+  -webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+  -o-transform:rotate(180deg);
+}
+
+.datagrid-view>div{
+  width: 100%;
+}
+.selectIndustry{
+  height: 28px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+
+
+.help{
+  /*src:url('../../../resources/commons/css/imgs/question2.png');*/
+  position:absolute;
+  buttom:5px;
+}
